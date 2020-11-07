@@ -87,6 +87,14 @@ body {
   transform: scale(0.8, 0.8);
   transition-duration: 2s;
 }
+form {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+  width: 50%;
+  margin: 20px auto;
+}
 footer {
   display: flex;
   justify-content: center;
