@@ -44,7 +44,8 @@ body {
   margin-bottom: 40px;
 }
 .shopping--list h1 {
-  font-style: italic;
+  font-family: "Pacifico", cursive;
+  font-size: 600;
 }
 .shopping--list__item {
   display: grid;
@@ -52,12 +53,15 @@ body {
   grid-template-columns: minmax(auto-fill, repeat(3, 1fr));
   gap: 8px 8px;
   width: 100%;
+  margin-bottom: 10px;
+  padding: 10px;
 }
 .shopping--list__item h2 {
   text-align: center;
-  background-color: #000;
+  background-color: rgb(17, 16, 16);
   width: 50%;
   margin: 0 auto;
+  border-radius: 8px;
 }
 
 .shopping--list__item p {
@@ -68,12 +72,17 @@ body {
   padding: 10px;
 }
 .shopping--list__item img {
-  width: 310px;
+  width: 305px;
   height: 190px;
   align-self: center;
   margin-top: 8px;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
   margin: 0 auto;
+}
+.shopping--list__item img:hover {
+  box-shadow: 6px 6px 12px 10px rgba(0, 0, 0, 0.3);
+  transform: scale(0.8, 0.8);
+  transition-duration: 2s;
 }
 footer {
   display: flex;
