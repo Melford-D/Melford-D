@@ -14,6 +14,9 @@ body {
   background-color: rgb(126, 22, 22);
   width: 100%;
 }
+.nav--bar .fa {
+  visibility: hidden;
+}
 .nav--bar ul {
   display: flex;
   flex-direction: row;
@@ -88,4 +91,33 @@ footer {
   display: flex;
   justify-content: center;
   margin-top: 20px;
+}
+
+/* media queries */
+@media screen and (max-width: 600px) {
+  .bg--image__left img {
+    width: 180px;
+    height: 100px;
+    padding: 10px;
+    margin-left: 650px;
+  }
+  .bg--image__right {
+    visibility: hidden;
+  }
+  .nav--bar ul li {
+    visibility: hidden;
+  }
+  .shopping--list__item img {
+    width: 250px;
+    height: 160px;
+  }
+  .nav--bar .fa {
+    font-size: 3rem;
+    visibility: visible;
+    margin-top: 30px;
+    margin-left: 20px;
+  }
+  .nav--bar .fa:hover {
+    color: #ffd615;
+  }
 }
