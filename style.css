@@ -104,10 +104,12 @@ footer {
 .copy--right {
   flex: 0.25;
 }
-
 .social--icons {
   padding: 5px;
   flex: 0.75;
+}
+.social--icons a {
+  text-decoration: none;
 }
 .social--icons .fa {
   font-size: 1.5rem;
@@ -119,8 +121,16 @@ footer {
   transition-duration: 1s;
 }
 
+/* Marquee Section*/
+marquee h3 {
+  font-size: 2rem;
+}
+
 /* media queries */
 @media screen and (max-width: 600px) {
+  marquee {
+    visibility: hidden;
+  }
   .bg--image__left img {
     width: 180px;
     height: 100px;
@@ -157,6 +167,9 @@ footer {
     flex: 1 0 auto;
     padding: 5px;
     margin-bottom: 6px;
+  }
+  .social--icons a {
+    text-decoration: none;
   }
   .social--icons .fa {
     font-size: 1.5rem;
