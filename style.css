@@ -101,14 +101,20 @@ footer {
     padding: 10px;
     margin-left: 650px;
   }
+  .bg--image__left img:hover {
+    transform: translate(-45px, 15px);
+  }
   .bg--image__right {
     visibility: hidden;
   }
   .nav--bar ul li {
     visibility: hidden;
   }
+  .shopping--list__item h2 {
+    padding: 10px;
+  }
   .shopping--list__item img {
-    width: 250px;
+    width: 230px;
     height: 160px;
   }
   .nav--bar .fa {
@@ -119,5 +125,25 @@ footer {
   }
   .nav--bar .fa:hover {
     color: #ffd615;
+    transition-duration: 1.5s;
+  }
+  .social--icons {
+    flex: 1 0 auto;
+    padding: 5px;
+    margin: 3px;
+  }
+  .social--icons .fa {
+    font-size: 1.5rem;
+    padding: 8px;
+  }
+  .social--icons .fa:hover {
+    color: #ffd615;
+    transition-duration: 2s;
+  }
+  .copy--right {
+    bottom: 0;
+    right: 0;
+    font-size: 0.8rem;
+    margin: 3px;
   }
 }
