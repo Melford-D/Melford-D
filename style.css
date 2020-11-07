@@ -27,7 +27,6 @@ body {
   margin-top: 30px auto;
   padding: 20px;
 }
-
 .bg--image__right img {
   width: 180px;
   height: 100px;
@@ -64,6 +63,7 @@ body {
   background-color: rgb(17, 16, 16);
   width: 50%;
   margin: 0 auto;
+  padding: 8px;
   border-radius: 8px;
 }
 
@@ -130,10 +130,11 @@ marquee h3 {
 @media screen and (max-width: 600px) {
   marquee {
     visibility: hidden;
+    margin-bottom: -30px;
   }
   .bg--image__left img {
-    width: 180px;
-    height: 100px;
+    width: 250px;
+    height: 150px;
     padding: 10px;
     margin-left: 650px;
   }
