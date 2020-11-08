@@ -17,6 +17,7 @@ nav {
   justify-content: center;
   background-color: rgb(126, 22, 22);
   width: 100%;
+  padding: 25px;
 }
 nav .openMenu {
   display: none;
@@ -48,6 +49,7 @@ nav ul li a {
 }
 nav ul li a:hover {
   background: #000;
+  color: #fff;
 }
 /* Header section */
 
@@ -55,13 +57,13 @@ nav ul li a:hover {
 .bg--image__right img {
   width: 180px;
   height: 100px;
-  padding-left: 30px;
-  margin: 5px;
+  padding-right: 30px;
+  margin-left: 5px;
 }
 .bg--image__left img {
   width: 180px;
   height: 100px;
-  padding-right: 30px;
+  padding-left: 30px;
   margin: 5px;
 }
 .dropDown--Icons a {
