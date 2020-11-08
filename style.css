@@ -24,26 +24,26 @@ nav .openMenu,
 .dropDown--Icons {
   display: none;
 }
-nav .mainMenu ul {
+nav .mainMenu {
   display: flex;
   justify-items: center;
   align-items: center;
   flex-direction: row;
 }
-nav .mainMenu ul li {
+nav .mainMenu li {
   list-style: none;
   font-size: 25px;
   margin-top: 30px auto;
   padding: 20px;
 }
-nav ul li a {
+nav .mainMenu li a {
   color: #fff;
   text-decoration: none;
   text-transform: uppercase;
   padding: 8px;
   border-radius: 6px;
 }
-nav ul li a:hover {
+nav .mainMenu li a:hover {
   background: #000;
   color: #fff;
 }
@@ -178,24 +178,33 @@ footer {
     top: 0;
     left: 0;
     right: 0;
-    z-index: 10;
+    z-index: 2;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     background: rgb(126, 22, 22);
-    transition: top 2s ease;
+    transition: top 1s ease;
     display: none;
   }
   nav .openMenu {
     display: block;
     cursor: pointer;
   }
-  nav .closeMenu {
-    display: none;
+  nav .mainMenu .closeMenu {
+    display: block;
     position: absolute;
     top: 20px;
-    right: 20px;
+    right: 40px;
     cursor: pointer;
+  }
+  nav .mainMenu ul li a:hover {
+    background: none;
+    color: rgb(255, 123, 0);
+    font-size: 1.6rem;
+  }
+  .dropDown--Icons i {
+    display: inline-block;
+    padding: 12px;
   }
   marquee {
     display: none;
