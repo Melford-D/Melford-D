@@ -18,21 +18,16 @@ nav {
   background-color: rgb(126, 22, 22);
   width: 100%;
   padding: 25px;
-  margin: 0 auto;
 }
-nav .openMenu {
+nav .openMenu,
+.closeMenu,
+.dropDown--Icons {
   display: none;
 }
-nav .closeMenu {
-  display: none;
-}
-nav .dropDown--Icons {
-  display: none;
-}
-
 nav .mainMenu ul {
   display: flex;
   justify-items: center;
+  align-items: center;
   flex-direction: row;
 }
 nav .mainMenu ul li {
@@ -194,6 +189,8 @@ footer {
   nav .openMenu {
     display: block;
     cursor: pointer;
+    padding: 10px;
+    margin: 10px;
   }
   nav .closeMenu {
     display: none;
