@@ -178,7 +178,7 @@ footer {
     top: 0;
     left: 0;
     right: 0;
-    z-index: 2;
+    z-index: 10;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -197,19 +197,19 @@ footer {
     right: 40px;
     cursor: pointer;
   }
-  nav .mainMenu ul li a:hover {
+  nav .mainMenu li a:hover {
     background: none;
-    color: rgb(255, 123, 0);
+    color: #000;
     font-size: 1.6rem;
   }
-  .dropDown--Icons i {
+  nav .mainMenu .dropDown--Icons i {
     display: inline-block;
     padding: 12px;
   }
-  marquee {
+  /* marquee {
     display: none;
     margin-bottom: -30px;
-  }
+  } */
   .bg--image__left img {
     width: 250px;
     height: 150px;
@@ -222,9 +222,7 @@ footer {
   .bg--image__right {
     display: none;
   }
-  nav ul li {
-    display: none;
-  }
+
   .shopping--list__item h2 {
     padding: 10px;
   }
