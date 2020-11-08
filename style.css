@@ -18,6 +18,7 @@ nav {
   background-color: rgb(126, 22, 22);
   width: 100%;
   padding: 25px;
+  margin: 0 auto;
 }
 nav .openMenu {
   display: none;
