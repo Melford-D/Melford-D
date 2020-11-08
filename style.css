@@ -189,8 +189,6 @@ footer {
   nav .openMenu {
     display: block;
     cursor: pointer;
-    padding: 10px;
-    margin: 10px;
   }
   nav .closeMenu {
     display: none;
