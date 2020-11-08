@@ -1,3 +1,4 @@
+/* Global format */
 * {
   margin: 0;
   padding: 0;
@@ -8,25 +9,49 @@
 body {
   background-color: #b31c1c;
 }
-.container {
+/* Global format */
+
+/* Header section */
+nav {
   display: flex;
   justify-content: center;
   background-color: rgb(126, 22, 22);
   width: 100%;
 }
-.nav--bar .fa {
-  visibility: hidden;
+nav .openMenu {
+  display: none;
 }
-.nav--bar ul {
+nav .closeMenu {
+  display: none;
+}
+nav .dropDown--Icons {
+  display: none;
+}
+
+nav .mainMenu ul {
   display: flex;
+  justify-items: center;
   flex-direction: row;
 }
-.nav--bar ul li {
+nav .mainMenu ul li {
   list-style: none;
   font-size: 25px;
   margin-top: 30px auto;
   padding: 20px;
 }
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 8px;
+  border-radius: 6px;
+}
+nav ul li a:hover {
+  background: #000;
+}
+/* Header section */
+
+/* Main Section */
 .bg--image__right img {
   width: 180px;
   height: 100px;
@@ -38,6 +63,9 @@ body {
   height: 100px;
   padding-right: 30px;
   margin: 5px;
+}
+.dropDown--Icons a {
+  text-decoration: none;
 }
 .shopping--list {
   display: flex;
@@ -95,6 +123,9 @@ form {
   width: 50%;
   margin: 20px auto;
 }
+/* Main Section */
+
+/* Footer Section */
 footer {
   display: flex;
   justify-content: center;
@@ -104,48 +135,88 @@ footer {
 .copy--right {
   flex: 0.25;
 }
-.social--icons {
+.footer--icons {
   padding: 5px;
   flex: 0.75;
 }
-.social--icons a {
+.footer--icons a {
   text-decoration: none;
 }
-.social--icons .fa {
+.footer--icons .fa {
   font-size: 1.5rem;
   padding: 8px;
   margin: 0 20px;
 }
-.social--icons .fa:hover {
-  color: #ffd615;
-  transition-duration: 1s;
+/* Dropdown Social Icons */
+.fa-facebook-official:hover {
+  color: rgb(0, 110, 255);
 }
+.fa-instagram:hover {
+  color: rgb(255, 0, 191);
+}
+.fa-twitter:hover {
+  color: rgb(86, 154, 243);
+}
+/* .fa-github{color: rgb(255, 123, 0);} */
+/* Dropdown Social Icons */
+
+/* Footer Section */
 
 /* Marquee Section*/
-marquee h3 {
-  font-size: 2rem;
+/* .welcome marquee {
+  display: flex;
+  flex-direction: column;
 }
+.welcome marquee h3 {
+  font-size: 2rem;
+} */
+/* Marquee Section*/
 
 /* media queries */
 @media screen and (max-width: 600px) {
+  nav .mainMenu {
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: rgb(126, 22, 22);
+    transition: top 2s ease;
+    display: none;
+  }
+  nav .openMenu {
+    display: block;
+    cursor: pointer;
+  }
+  nav .closeMenu {
+    display: none;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    cursor: pointer;
+  }
   marquee {
-    visibility: hidden;
+    display: none;
     margin-bottom: -30px;
   }
   .bg--image__left img {
     width: 250px;
     height: 150px;
-    padding: 10px;
-    margin-left: 650px;
+    padding: 18px;
+    margin-left: 50px;
   }
   .bg--image__left img:hover {
     transform: translate(-45px, 15px);
   }
   .bg--image__right {
-    visibility: hidden;
+    display: none;
   }
-  .nav--bar ul li {
-    visibility: hidden;
+  nav ul li {
+    display: none;
   }
   .shopping--list__item h2 {
     padding: 10px;
@@ -154,32 +225,41 @@ marquee h3 {
     width: 230px;
     height: 160px;
   }
-  .nav--bar .fa {
+  nav .fa {
     font-size: 3rem;
     visibility: visible;
     margin-top: 30px;
     margin-left: 20px;
   }
-  .nav--bar .fa:hover {
+  nav .fa:hover {
     color: #ffd615;
     transition-duration: 1.5s;
   }
-  .social--icons {
+  .footer--icons {
     flex: 1 0 auto;
     padding: 5px;
     margin-bottom: 6px;
   }
-  .social--icons a {
+  .footer--icons a {
     text-decoration: none;
   }
-  .social--icons .fa {
+  .footer--icons .fa {
     font-size: 1.5rem;
     padding: 8px;
   }
-  .social--icons .fa:hover {
-    color: #ffd615;
-    transition-duration: 1s;
+
+  /* Dropdown Social Icons */
+  .fa-facebook-official:hover {
+    color: rgb(0, 110, 255);
   }
+  .fa-instagram:hover {
+    color: rgb(255, 0, 191);
+  }
+  .fa-twitter:hover {
+    color: rgb(86, 154, 243);
+  }
+  /* .fa-github{color: rgb(255, 123, 0);} */
+  /* Dropdown Social Icons */
   .copy--right {
     bottom: -10px;
     right: 0;
@@ -187,14 +267,4 @@ marquee h3 {
     margin: 3px;
   }
 }
-
-/* scrollbar resetter */
-/*Hide scrollbar for Chrome, Safari, and Opera*/
-.container::-webkit-scrollbar {
-  display: none;
-}
-/*Hide scrollbar for IE, Edge, and Firefox*/
-.container {
-  -ms-overflow-style: none; /*IE and Edge*/
-  scrollbar-width: none;
-} /*Firefox*/
+/* media queries */
