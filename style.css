@@ -188,18 +188,19 @@ footer {
   }
   nav .openMenu {
     display: block;
+    margin-right: 5px;
     cursor: pointer;
   }
   nav .mainMenu .closeMenu {
     display: block;
     position: absolute;
     top: 20px;
-    right: 40px;
+    right: 20px;
     cursor: pointer;
   }
   nav .mainMenu li a:hover {
-    background: none;
-    color: #000;
+    background: #000;
+    color: #fff;
     font-size: 1.6rem;
   }
   nav .mainMenu .dropDown--Icons i {
