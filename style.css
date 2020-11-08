@@ -33,7 +33,7 @@ nav .mainMenu {
 nav .mainMenu li {
   list-style: none;
   font-size: 25px;
-  margin-top: 30px auto;
+  margin: 30px auto;
   padding: 20px;
 }
 nav .mainMenu li a {
