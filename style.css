@@ -58,13 +58,13 @@ nav ul li a:hover {
   width: 180px;
   height: 100px;
   padding-right: 30px;
-  margin-left: 5px;
+  margin: 15px;
 }
 .bg--image__left img {
   width: 180px;
   height: 100px;
   padding-left: 30px;
-  margin: 5px;
+  margin: 15px;
 }
 .dropDown--Icons a {
   text-decoration: none;
