@@ -246,6 +246,7 @@ footer {
   /* contact address */
   .contact-page {
     display: flex;
+    flex-wrap: wrap;
     justify-content: left;
     align-items: left;
     flex-direction: column;
