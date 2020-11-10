@@ -245,24 +245,30 @@ footer {
 
   /* contact address */
   .contact-page {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: left;
-    align-items: left;
-    flex-direction: column;
+    max-width: 800px;
+    display: grid;
+    grid-template-columns: minmax(auto-fill, repeat(6, 1fr));
     background-color: rgb(17, 16, 16);
-    margin: 20px 50px;
+    margin: 0 auto;
     padding: 8px;
+    margin-top: 30px;
+    border-radius: 8px;
+  }
+  hr {
+    border: 2px solid #dedede;
   }
   .contact-page p {
-    font-size: small;
     padding: 5px;
-    margin: 0 auto;
   }
 
-  .address {
-    font-size: 1.3rem;
+  .contact-page span {
     letter-spacing: 2px;
+    padding: 5px;
+  }
+  .contact-page .fa-home,
+  .fa-phone {
+    font-size: 2rem;
+    padding: 1rem;
   }
   /* contact address */
 
