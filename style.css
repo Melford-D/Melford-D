@@ -85,7 +85,8 @@ nav .mainMenu li a:hover {
   margin-bottom: 10px;
   padding: 10px;
 }
-.shopping--list__item h2 {
+.shopping--list__item h2,
+h3 {
   text-align: center;
   background-color: rgb(17, 16, 16);
   width: 50%;
@@ -123,6 +124,50 @@ form {
   margin: 20px auto;
 }
 /* Main Section */
+
+/* About section */
+.shopping--list__item ul {
+  margin: 0 auto;
+  margin-top: 20px;
+  font-size: 1.3rem;
+  line-height: 30px;
+  background-color: rgb(17, 16, 16);
+}
+.shopping--list__item ul li {
+  padding: 20px;
+  list-style: none;
+}
+.shopping--list__item ul hr {
+  border: 2px solid #dedede;
+  width: 92%;
+  margin: 0 auto;
+}
+/* About section */
+
+/* contact address */
+.contact-page {
+  max-width: 800px;
+  display: grid;
+  grid-template-columns: minmax(auto-fill, repeat(6, 1fr));
+  background-color: rgb(17, 16, 16);
+  margin: 0 auto;
+  padding: 8px;
+  margin-top: 30px;
+  border-radius: 8px;
+}
+hr {
+  border: 2px solid #dedede;
+}
+.contact-page p {
+  padding: 5px;
+}
+.contact-page .fa-home,
+.fa-phone,
+.fa-envelope-o {
+  font-size: 2rem;
+  padding: 1rem;
+}
+/* contact address */
 
 /* Footer Section */
 footer {
@@ -196,10 +241,7 @@ footer {
     display: inline-block;
     padding: 12px;
   }
-  marquee {
-    display: none;
-    margin-bottom: -30px;
-  }
+
   .bg--image__left img {
     width: 250px;
     height: 150px;
