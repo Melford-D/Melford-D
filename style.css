@@ -260,13 +260,9 @@ footer {
   .contact-page p {
     padding: 5px;
   }
-
-  .contact-page span {
-    letter-spacing: 2px;
-    padding: 5px;
-  }
   .contact-page .fa-home,
-  .fa-phone {
+  .fa-phone,
+  .fa-envelope-o {
     font-size: 2rem;
     padding: 1rem;
   }
