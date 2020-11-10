@@ -12,6 +12,16 @@ body {
 /* Global format */
 
 /* Header section */
+.kitchen-name {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(126, 22, 22);
+}
+.kitchen-name h1 {
+  font-size: 2rem;
+  font-family: "Pacifico";
+}
 nav {
   display: flex;
   justify-content: center;
@@ -138,6 +148,7 @@ form {
   font-size: 1.3rem;
   line-height: 30px;
   background-color: rgb(17, 16, 16);
+  border-radius: 8px;
 }
 .shopping--list__item ul li {
   padding: 20px;
