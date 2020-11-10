@@ -243,6 +243,26 @@ footer {
     padding: 8px;
   }
 
+  /* contact address */
+  .contact-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(126, 22, 22);
+    margin: 0 auto;
+    margin-top: 30px;
+  }
+  .contact-page p {
+    float: left;
+    padding: 10px;
+  }
+  .address {
+    font-size: 1.5rem;
+    letter-spacing: 3px;
+  }
+  /* contact address */
+
   /* Dropdown Social Icons */
   .fa-facebook-official:hover {
     color: rgb(0, 110, 255);
