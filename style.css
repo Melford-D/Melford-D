@@ -246,19 +246,19 @@ footer {
   /* contact address */
   .contact-page {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    background-color: rgb(126, 22, 22);
+    justify-content: left;
+    align-items: left;
+    /* flex-direction: column; */
+    background-color: rgb(17, 16, 16);
     margin: 0 auto;
     margin-top: 30px;
   }
   .contact-page p {
-    float: left;
     padding: 10px;
   }
+
   .address {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     letter-spacing: 3px;
   }
   /* contact address */
