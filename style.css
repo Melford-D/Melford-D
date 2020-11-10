@@ -264,6 +264,10 @@ footer {
   .shopping--list__item h2 {
     padding: 10px;
   }
+  .shopping--list__item .first-review {
+    display: grid;
+    grid-template-columns: 1/3fr 2/4fr;
+  }
   .shopping--list__item img {
     width: 230px;
     height: 160px;
