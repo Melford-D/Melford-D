@@ -159,18 +159,6 @@ footer {
 /* .fa-github{color: rgb(255, 123, 0);} */
 /* Dropdown Social Icons */
 
-/* Footer Section */
-
-/* Marquee Section*/
-/* .welcome marquee {
-  display: flex;
-  flex-direction: column;
-}
-.welcome marquee h3 {
-  font-size: 2rem;
-} */
-/* Marquee Section*/
-
 /* media queries */
 @media screen and (max-width: 600px) {
   nav .mainMenu {
