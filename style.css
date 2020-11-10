@@ -50,6 +50,12 @@ nav .mainMenu li a:hover {
 }
 /* Header section */
 
+/* welcome note */
+.welcome {
+  display: none;
+}
+/* welcome note */
+
 /* Main Section */
 .bg--image__right img {
   width: 180px;
@@ -284,6 +290,12 @@ footer {
     font-size: 1.5rem;
     padding: 8px;
   }
+
+  /* welcome note */
+  .welcome {
+    display: block;
+  }
+  /* welcome note */
 
   /* contact address */
   .contact-page {
