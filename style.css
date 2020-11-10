@@ -257,6 +257,7 @@ footer {
   .contact-page p {
     font-size: small;
     padding: 5px;
+    margin: 0 auto;
   }
 
   .address {
