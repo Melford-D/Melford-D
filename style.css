@@ -21,6 +21,8 @@ body {
 .kitchen-name h1 {
   font-size: 2rem;
   font-family: "Pacifico";
+  padding: 10px;
+  margin-bottom: -8px;
 }
 nav {
   display: flex;
