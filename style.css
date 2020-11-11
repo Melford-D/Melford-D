@@ -246,6 +246,10 @@ footer {
     transition: top 1s ease;
     display: none;
   }
+  nav .mainMenu li {
+    align-self: center;
+    margin: 30px auto;
+  }
   nav .openMenu {
     display: block;
     margin-right: 5px;
