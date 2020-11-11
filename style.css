@@ -234,7 +234,7 @@ footer {
 @media screen and (max-width: 600px) {
   nav .mainMenu {
     height: 100vh;
-    position: fixed;
+    position: absolute;
     top: 0;
     left: 0;
     right: 0;
@@ -242,7 +242,7 @@ footer {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: rgb(126, 22, 22);
+    background: rgba(126, 22, 22, 0.8);
     transition: top 1s ease;
     display: none;
   }
