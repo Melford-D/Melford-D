@@ -24,6 +24,13 @@ body {
   padding: 10px;
   margin-bottom: -8px;
 }
+.kitchen-name a {
+  text-decoration: none;
+}
+.kitchen-name a:hover {
+  transform: scale(0.8);
+  cursor: pointer;
+}
 nav {
   display: flex;
   justify-content: center;
