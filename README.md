@@ -3,8 +3,8 @@
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=tahoma&color=8A6BF6&center=false&width=262&height=30&lines=Frontend+Web+Developer;Open+Source;Good+Team+Player)](https://git.io/typing-svg)
 
 <h3 align='left'>About Me</h3>
-<p align='left'> A Frontend Web Developer proficient in HTML, CSS, REACT. Currently a member of open source communities to contribute in projects and helping newbies develop their tech skills.</p>
-<p>I am currently advancing 🚀  my skills into backend development to become a fullstack developer by the end 2022.</p>
+<p align='left'> A Frontend Web Developer proficient in HTML, CSS, and REACT. Currently a member of open source communities to contribute in projects and helping newbies develop their tech skills.</p>
+<p>I am currently advancing 🚀  my skills into backend development to become a fullstack developer by second quarter of 2023.</p>
 
 <h3>Github Stat</h3>
 
