@@ -1,5 +1,7 @@
 ## Hi, I'm Melford <img src="https://user-images.githubusercontent.com/1303154/88677602-1635ba80-d120-11ea-84d8-d263ba5fc3c0.gif" width="28px" alt="hi">
 
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=tahoma&color=8A6BF6&center=false&width=262&height=30&lines=Frontend+Web+Developer;Open+Source;Good+Team+Player)](https://git.io/typing-svg)
+
 <h3 align='left'>About Me</h3>
 <p align='left'> A Frontend Web Developer proficient in HTML, CSS, REACT. Currently a member of open source communities to contribute in projects and helping newbies develop their tech skills.</p>
 <p>I am currently advancing 🚀  my skills into backend development to become a fullstack developer by the end 2022.</p>
@@ -13,19 +15,19 @@
 #### Contact
 
 <p align="left">
-  <a href="http://twitter.com/evavic44">
+  <a href="http://twitter.com/melford_d">
     <img src="https://img.shields.io/twitter/follow/melford_d?label=Twitter&logo=twitter&style=for-the-badge" />
   </a>
-  <a href="https://www.linkedin.com/in/melford">
+  <a href="https://www.linkedin.com/in/melfordbirakor">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white">
   </a>
-  <a href="mailto: evavic44@gmail.com">
+  <a href="mailto: melfordbirakor@gmail.com">
     <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white">
   </a>
-  <a href="https://codepen.io/evavic44">
+  <a href="https://codepen.io/melford-d">
     <img src="https://img.shields.io/badge/Codepen-000000?style=for-the-badge&logo=codepen&logoColor=white">
   </a>
-  <a href="https://stackoverflow.com/users/14021166/eke?tab=profile">
+  <a href="https://stackoverflow.com/users/14101209/melford-b-birakor?tab=profile">
     <img src="https://img.shields.io/badge/Stack_Overflow-FE7A16?style=for-the-badge&logo=stack-overflow&logoColor=white">
   </a>
 </p>
