@@ -14,9 +14,9 @@
 
 <p align="left">
   <a href="http://twitter.com/evavic44">
-    <img src="https://img.shields.io/twitter/follow/evavic44?label=Twitter&logo=twitter&style=for-the-badge" />
+    <img src="https://img.shields.io/twitter/follow/melford_d?label=Twitter&logo=twitter&style=for-the-badge" />
   </a>
-  <a href="https://www.linkedin.com/in/evavic44">
+  <a href="https://www.linkedin.com/in/melford">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white">
   </a>
   <a href="mailto: evavic44@gmail.com">
@@ -46,4 +46,4 @@
 <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB">
 <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white">
 </p>
-<br><hr>
+<br>
