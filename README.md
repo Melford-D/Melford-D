@@ -13,19 +13,19 @@
 #### Contact
 
 <p align="left">
-  <a href="http://twitter.com/evavic44">
-    <img src="https://img.shields.io/twitter/follow/evavic44?label=Twitter&logo=twitter&style=for-the-badge" />
+  <a href="http://twitter.com/melford_d">
+    <img src="https://img.shields.io/twitter/follow/melford_d?label=Twitter&logo=twitter&style=for-the-badge" />
   </a>
-  <a href="https://www.linkedin.com/in/evavic44">
+  <a href="https://www.linkedin.com/in/melfordbirakor">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white">
   </a>
-  <a href="mailto: evavic44@gmail.com">
+  <a href="mailto: melfordbirakor@gmail.com">
     <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white">
   </a>
-  <a href="https://codepen.io/evavic44">
+  <a href="https://codepen.io/melford-d">
     <img src="https://img.shields.io/badge/Codepen-000000?style=for-the-badge&logo=codepen&logoColor=white">
   </a>
-  <a href="https://stackoverflow.com/users/14021166/eke?tab=profile">
+  <a href="https://stackoverflow.com/users/14021166/melford-b-birakor?tab=profile">
     <img src="https://img.shields.io/badge/Stack_Overflow-FE7A16?style=for-the-badge&logo=stack-overflow&logoColor=white">
   </a>
 </p>
