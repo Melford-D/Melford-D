@@ -16,7 +16,7 @@
 
 <p align="left">
   <a href="http://twitter.com/melford_d">
-    <img src="https://img.shields.io/twitter/follow/melford_d?label=Twitter&logo=twitter&style=for-the-badge" />
+    <img src="https://img.shields.io/badge/Twitter-08A0E9?style=for-the-badge&logo=twitter&logoColor=white" />
   </a>
   <a href="https://www.linkedin.com/in/melfordbirakor">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white">
